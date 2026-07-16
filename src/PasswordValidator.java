@@ -10,10 +10,8 @@ public class PasswordValidator {
         if(pw.length() == MIN_LEN) return true ;
         if(pw.length() == MAX_LEN) return true ;
 
-       if (pw.length() < 8) return false ;
+        if (pw.length() < 8) return false ;
         if(pw.length() > 20) return false ;
-
-        
 
         boolean hasUpper = false ;
         boolean hasLower = false ;
